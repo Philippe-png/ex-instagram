@@ -35,7 +35,39 @@ width: 95px;
 border-radius: 50%;
 border: 1px solid black;
 
+
 }
+
+#lado4{
+
+display: flex;
+flex-direction: column;
+margin-top: 35px;
+
+
+
+}
+
+#imagem1 img{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+#imagem1 {
+
+display: flex;
+align-items: center;
+padding-left: 150px;
+}
+
+
+
+
 
 header{
 
@@ -78,11 +110,6 @@ font-size: 16px;
 }
 
 
-img{
-
-width: 75px;
-
-}
 
 
 .lado3{
@@ -92,7 +119,7 @@ padding-left: 70px;
 
 }
 
-img{
+.lado3 img{
 
 border-radius: 50%;
 width: 50px;
@@ -100,3 +127,51 @@ width: 50px;
 
 }
 
+
+
+#imagem4 img{
+
+width: 450px;
+height: 450px;
+object-fit: cover;
+align-items: center;
+
+}
+
+#lado5{
+
+padding-left: 150px;
+padding-top: 10px;
+
+}
+
+#icons{
+
+display: flex;
+padding-left: 150px;
+gap: 5px;
+
+
+}
+
+#icons2{
+
+display: flex;
+padding-left: 375px;
+
+}
+
+.color{
+
+color: rgba(187, 181, 181, 0.39);
+
+}
+
+#centro{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 15px;
+
+}
